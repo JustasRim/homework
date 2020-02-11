@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background: rgb(217,142,42);
+    background: linear-gradient(90deg, rgba(217,142,42,1) 0%, rgba(255,0,0,1) 95%);
+    .fa-film {
+        position: absolute;
+        top: 18px;
+        padding: 9px 8px;
+        color: white;
+    }
+    input {
+        position: relative;
+        background: linear-gradient(90deg, rgba(236, 216, 186, 0.5) 0%, rgba(236, 125, 125, 0.5) 95%);
+        color: white;
+        font-weight: bold;
+        border: 0;
+        width: 80vw;
+        padding: 1em 1em 1em 2.5em;
+        margin: 1em 0.2em;
+    }
+    ::placeholder {
+        color: white;
+    }
+    .btn {
+        color: rgba(217, 142, 42) !important;
+        background-color: white;
+        padding: 0.65em;
+        border-radius: 2px;
+    }
+}
