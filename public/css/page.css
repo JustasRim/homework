@@ -27,6 +27,18 @@ body {
 .header ::placeholder {
   color: white;
 }
+.header #datalist {
+  background: white;
+  position: absolute;
+  left: 0;
+  width: 80vw;
+  margin: 1em 1em 1em 2.5em;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 100;
+}
 .header .btn {
   color: #d98e2a !important;
   background-color: white;
